@@ -10,8 +10,8 @@ function HeroSection() {
         {/* CONTAINER */}
 
         <div className="flex flex-initial flex-col items-center lg:items-start md:w-3/5">
-          <h2 className="text-white text-3xl md:text-5xl lg:text-6xl text-center lg:text-left mb-4 ">
-            Hi, I'm John Vincent |
+          <h2 className="text-white text-4xl md:text-5xl lg:text-6xl text-center lg:text-left mb-4 ">
+            Hi, I&apos;m John Vincent
           </h2>
           <h2 className="text-white text-3xl md:text-5xl lg:text-6xl text-center lg:text-left mb-8 ">
             Software Engineer

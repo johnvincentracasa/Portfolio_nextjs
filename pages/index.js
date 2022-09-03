@@ -3,6 +3,7 @@ import Image from "next/image";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import Skills from "../components/Skills";
+import Skill from "../components/Skill";
 
 export default function Home() {
   return (
