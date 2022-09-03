@@ -12,7 +12,7 @@ module.exports = {
       colors: {
         "primary-color-black": "rgb(27, 38, 44)",
         "secondary-color-navy": "rgb(15, 76, 117)",
-        "accent-color-blue": "rgb(50, 130, 184)",
+        "accent-color-blue": "rgb(0, 186, 227)",
         "accent-color-winter": "rgb(187, 225, 250)",
       },
     },

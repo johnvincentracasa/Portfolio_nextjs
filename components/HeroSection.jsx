@@ -6,15 +6,18 @@ function HeroSection() {
     // HERO SECTION
 
     <section className="relative">
-      <div className="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-36 lg:mt-56">
+      <div className="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-44 lg:mt-50">
         {/* CONTAINER */}
 
         <div className="flex flex-initial flex-col items-center lg:items-start md:w-3/5">
-          <h2 className="text-white text-3xl md:text-5xl lg:text-6xl text-center lg:text-left mb-6 ">
-            Hi, I'm John | Software Engineer
+          <h2 className="text-white text-3xl md:text-5xl lg:text-6xl text-center lg:text-left mb-4 ">
+            Hi, I'm John Vincent |
           </h2>
-          <p className="text-slate-400 text-lg text-center lg:text-left mb-6 md:mr-12 ">
-            I am passionate in creating and exploring new things, I'm a lifelong
+          <h2 className="text-white text-3xl md:text-5xl lg:text-6xl text-center lg:text-left mb-8 ">
+            Software Engineer
+          </h2>
+          <p className="text-slate-400 text-lg text-center lg:text-left mb-6 md:mr-12 pb-2">
+            I am passionate in creating and exploring new things, a lifelong
             learner and I might have a thing for classic motorcyle
           </p>
           <div className="flex justify-center flex-wrap gap-6 ">

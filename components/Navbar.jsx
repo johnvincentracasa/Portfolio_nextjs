@@ -1,14 +1,24 @@
 import Link from "next/link";
 import styles from "./componets_styles/buttons.module.css";
+import Image from "next/image";
 
 function Navbar() {
   //styles
 
   return (
     <nav className="container flex justify-between  items-start sm:items-center flex-col sm:flex-row text-white">
-      <div className="text-2xl p-2 ">
+      <div className="flex text-2xl p-2 ">
+        <div className="relative w-8 mr-2 ">
+          <Image
+            src="/logo.png"
+            alt="jvracasa"
+            layout="fill"
+            objectFit="contain"
+          />
+        </div>
+
         <Link href="/">
-          <a>John Vincent Racasa</a>
+          <a> Racasa</a>
         </Link>
       </div>
 

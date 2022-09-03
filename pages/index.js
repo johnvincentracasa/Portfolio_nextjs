@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
+import Skills from "../components/Skills";
 
 export default function Home() {
   return (
@@ -21,9 +22,9 @@ export default function Home() {
         <HeroSection />
       </div>
 
-      <div>{/* BACKGROUND AND SKILLS */}</div>
+      {/* BACKGROUND AND SKILLS */}
 
-      <section className="relative"></section>
+      <Skills />
     </div>
   );
 }
